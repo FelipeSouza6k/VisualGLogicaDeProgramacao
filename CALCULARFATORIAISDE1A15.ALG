@@ -6,23 +6,29 @@ Algoritmo "CalcularFatoriaisDe1A15"
 // Data atual  : 29/03/2025
 Var
    // Declaração de variáveis
-   fatorial, i, j: inteiro
-   soma: inteiro
+   aux,fatorial, numero: real
+   soma:real
 
 Inicio
-   // Inicializações
-   Escreval("Fazer a soma dos fatoriais de 1 a 15")
-   soma <- 0
+   numero <- 1
+   Escreval("Algoritmo de soma dos fatoriais de 1 a 15:")
 
-   // Calcular fatoriais e somá-los
-   para i de 1 ate 15 passo 1 faca
+   repita
       fatorial <- 1
-      para j de 1 ate i passo 1 faca
-         fatorial <- fatorial * j
-      fimpara
+      aux <- numero
+      repita
+         fatorial <- fatorial * aux
+         aux <- aux - 1
+      ate aux < 1
       soma <- soma + fatorial
-   fimpara
+      numero <- numero + 1
+   ate numero > 15
 
-   Escreval("A soma dos fatoriais de 1 a 15 é: ", soma)
+   Escreval("O resultado dos 15 números é:", soma)
+
+
+
+
+
 
 Fimalgoritmo
