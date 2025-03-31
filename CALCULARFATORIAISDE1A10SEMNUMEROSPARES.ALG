@@ -10,20 +10,21 @@ Var
 
 Inicio
    numero <- 1
-   Escreval("Algoritmo de soma dos fatoriais de 1 a 15:")
+   Escreval("Algoritmo de fatoriais de numeros impares entre 1 e 10:")
    repita
       fatorial <- 1
       aux <- numero
+      
       repita
          fatorial <- fatorial * aux
          aux <- aux - 1
+         
       ate aux < 1
-      soma <- soma + fatorial
+      Escreval("",numero,"! =" , fatorial)
       numero <- numero + 2
+
+      
    ate numero > 10
-
-
-   Escreval("O resultado dos 15 números é:", soma)
 
 
 
