@@ -1,23 +1,23 @@
-Algoritmo "semnome"
-// Disciplina   : [Lógica de Programação em JavaScript]
+Algoritmo "antecessor"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o em JavaScript]
 // Professor   : Jailson
-// Descrição   : Descobrir numero anterior
+// DescriÃ§Ã£o   : Descobrir numero anterior
 // Autor(a)    : Felipe Rodrigues de Souza
 // Data atual  : 17/03/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero01:inteiro
 antecessor:inteiro
 sucessor:inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("*****Descobrir antecessor de um número*****")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("*****Descobrir antecessor de um nÃºmero*****")
 Escreval("")
 Leia(numero01)
 antecessor <- numero01 - 1
 sucessor <- numero01 + 1
-Escreval("O antecessor deste numero é: ",antecessor)
-Escreva("O sucessor deste numero é:",sucessor)
+Escreval("O antecessor deste numero Ã©: ",antecessor)
+Escreva("O sucessor deste numero Ã©:",sucessor)
 
 
 
