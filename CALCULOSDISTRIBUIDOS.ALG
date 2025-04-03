@@ -27,24 +27,25 @@ Escreval(" O resultado de A + B é: ",resultado)
 resultado<- a+c
 Escreval(" O resultado de A + C é: ",resultado)
 resultado<- a+d
-Escreval(" O resultado de A + B é: ",resultado)
-resultado<- b+a
-Escreval(" O resultado de A + C é: ",resultado)
+Escreval(" O resultado de A + D é: ",resultado)
 resultado<- b+c
-Escreval(" O resultado de A + B é: ",resultado)
+Escreval(" O resultado de B + C é: ",resultado)
 resultado<- b+d
-Escreval(" O resultado de A + C é: ",resultado)
-resultado<- c+a
-Escreval(" O resultado de A + B é: ",resultado)
-resultado<- c+b
-Escreval(" O resultado de A + C é: ",resultado)
+Escreval(" O resultado de B + D é: ",resultado)
 resultado<- c+d
-Escreval(" O resultado de A + B é: ",resultado)
-resultado<- d+a
-Escreval(" O resultado de A + C é: ",resultado)
-resultado<- d+b
-Escreval(" O resultado de A + B é: ",resultado)
-resultado<- d+c
+Escreval(" O resultado de C + D é: ",resultado)
+resultado<- a*b
+Escreval(" O resultado de A * B é: ",resultado)
+resultado<- a*c
+Escreval(" O resultado de A * C é: ",resultado)
+resultado<- a*d
+Escreval(" O resultado de A * D é: ",resultado)
+resultado<- b*c
+Escreval(" O resultado de B * C é: ",resultado)
+resultado<- b*d
+Escreval(" O resultado de B * D é: ",resultado)
+resultado<- c*d
+Escreval(" O resultado de C * D é: ",resultado)
 
 
 
