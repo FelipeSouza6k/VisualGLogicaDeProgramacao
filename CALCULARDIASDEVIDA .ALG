@@ -1,11 +1,11 @@
 Algoritmo "Calcular Dias de vida "
-// Disciplina   : [Linguagem e logica de programação em JavaScript]
+// Disciplina   : [Linguagem e logica de programaÃ§Ã£o em JavaScript]
 // Professor   : Jailson
-// Descrição   : Calcular quantidade de dias vividos
+// DescriÃ§Ã£o   : Calcular quantidade de dias vividos
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 17/03/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 anos:inteiro
 meses:inteiro
 dias:inteiro
@@ -13,7 +13,7 @@ total_de_dias:inteiro
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 Escreval("Contar a quantidade de dias vividos")
 Escreval("Quantos anos :")
 leia(anos)
@@ -24,7 +24,7 @@ meses <- 30 * meses
 Escreval("Quantos dias :")
 leia(dias)
 total_de_dias <- anos + meses + dias
-Escreva("A quantidade de dias vivídos é: ",total_de_dias)
+Escreva("A quantidade de dias vivÃ­dos Ã©: ",total_de_dias)
 
 
 
