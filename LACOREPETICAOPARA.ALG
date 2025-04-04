@@ -1,16 +1,16 @@
-Algoritmo "LaçoRepeticaoPara"
-// Disciplina   : [Lógica de Programação com VisualG]
+Algoritmo "LaÃ§oRepeticaoPara"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com VisualG]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Felipe Rodrigues de Souza
 // Data atual  : 27/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    contador, contador2:inteiro
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    para contador de 0 ate 59 passo 1 faca
       para contador2 de 0 ate 59 passo 1 faca
          Escreval(contador," :",contador2)
