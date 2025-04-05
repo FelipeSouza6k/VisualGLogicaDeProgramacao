@@ -1,4 +1,4 @@
-Algoritmo "CalcularPotenciaDeTresAteExpoente15"
+Algoritmo "CalcularPotenciaDeTresAteExpoente15Sem^"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -6,19 +6,14 @@ Algoritmo "CalcularPotenciaDeTresAteExpoente15"
 // Data atual  : 03/04/2025
 Var
    // Seção de Declarações das variáveis
-   expoente,tres:real
-
+   resultado,expoente:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("CACULAR POTÊNCIA DE 3 ATÉ O EXPOENTE 15 ")
-   enquanto expoente < 16 faça
-      tres <- 3
-      tres <- tres ^ expoente
-      Escreval("3 ^",expoente," = ",tres)
-      expoente<- expoente + 1
+   resultado <- 1
+   enquanto expoente < 16 faca
+      Escreval("3 elevado a ", expoente, " = ", resultado)
+      resultado <- resultado * 3
+      expoente <- expoente + 1
    fimenquanto
-
-
 
 Fimalgoritmo
